@@ -1,0 +1,491 @@
+*{
+	box-sizing: border-box;
+}
+html {
+    background-color: rgba(111, 113, 116, 0.596);
+  margin: 0px auto;
+  
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgba(111, 113, 116, 0.596);
+  margin: 0px auto;
+  border-radius: 10px;
+  
+}
+header{
+  background-color: rgb(52, 61, 61);
+  display: flex;
+}
+header h1{
+  text-align: center;
+  color: rgb(185, 181, 181);
+  margin:  0px auto;    
+}
+[class*="col-"] {
+  width: 100%;
+}
+.col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+#logos_conteiner{
+  margin: 4px;
+  display: flex;
+  flex-direction: row ;
+  justify-content: flex-end;
+  padding-right:  6%;
+  
+}
+.logos_flex{
+  list-style: none;
+  margin-right: 10px;
+  justify-content: end;
+  text-align: center;
+  
+}
+.logos_flex h3{
+  color: rgb(185, 181, 181);  
+  margin:4px;
+  font-size: 90%; 
+}
+footer{
+  
+  margin: 0px auto;
+  font-size: 75%;
+  text-align: center;
+  background-color: rgb(52, 61, 61);
+}
+footer p{
+  margin: auto;
+  padding: 5px;
+  color: rgba(126, 123, 123, 0.534);
+}
+footer a{
+  color: rgb(152, 153, 149);
+}
+
+main{
+    background-color: rgba(111, 113, 116, 0.596);
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+section{
+    margin-top: 3%;
+    padding: 30px
+}
+#esquerdo{
+    margin-left: 5%;
+}
+aside{
+    background-color: rgba(111, 113, 116, 0.596);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+nav{
+  position:sticky;
+  top: 0px;
+    background-color: rgba(161, 159, 159, 0.753);  
+}
+#nav_conteiner{
+    
+    padding-right: 6%;
+    margin: 0px ;
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-end;
+}
+.nav_flex{
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.nav_flex :hover{
+    padding: 1px;
+    
+}
+
+a{   
+    text-decoration: none;
+    font-size: 100%;
+    color: rgb(15, 15, 15);
+}
+#informacoes_adicionais{
+    padding: 0%;
+    margin: 0px;
+    list-style: none;
+    display: flex; 
+}
+.lista_info{
+    padding: 4%;
+}
+
+article{
+    background-color: rgba(111, 113, 116, 0.596);
+    margin: 0px auto;
+}
+.row {
+  width: 580px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-right: 15px;
+  margin-left: 15px;
+  
+}
+input{
+  border: none;
+  
+  border-radius: 7px;
+  height: 30px;
+  width: 250px;
+}
+#contatos{
+  text-align: left;
+  background-color: rgb(189, 188, 187);
+  border-radius: 15px ;
+}
+#espaco{
+  text-align: center  ;
+  background-color: rgba(111, 113, 116, 0.596);
+  padding: 100px;
+}
+#info{
+  margin: 0px;
+  list-style: none;
+  padding: 10px;
+  text-align: left;
+}
+#info h3{
+  margin: 0px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+.list{
+  padding: 10px;
+  text-align:left;
+  color: rgb(59, 59, 65);
+}
+input::placeholder,textarea::placeholder {
+  color: rgb(255, 255, 255);
+}
+#nome,#cpf{
+  background-color: rgb(158, 156, 156);
+}
+#email,#num_contato{
+  background-color: rgb(122, 122, 122);
+}
+#msg{
+  background-color: rgb(97, 97, 97);
+  border: none;
+  color: white;
+  border-radius: 7px;
+  width: 540px;
+  height: 50px;
+}
+#div_img{
+  background-image: url("/imagens/fundo_formulario_1920.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0px auto;
+}
+#enviar{
+
+background-color: black;
+color: white;
+
+}
+.form_h3{
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+#contatos h6, #contatos p{
+  text-align: left;
+  margin: 0px;
+  
+}
+form{
+  background-color: rgb(189, 188, 187);
+  border-radius: 15px ;
+}
+
+#btn_mobile{
+  display: none;
+}
+#menu{
+  display: none;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+@media screen and (max-width:1366px)
+{
+    html,body{
+        max-width: 1366px;
+    }
+    #quem_somos_conteiner{
+    padding: 4%;
+    }  
+    #contatos{
+      width: 200px;
+    }
+    #logos_conteiner,h3,.logos_flex img{
+        height: 20px;
+        font-size: 13px;
+        
+    }
+input{
+  width: 45%;
+}
+
+    #msg{
+      width: 450px;
+      margin: 10px;
+     }
+
+}
+@media screen and (min-width:800px) and (max-width:1365px){
+    html,body{
+        max-width: 1366px;
+    }
+    #quem_somos_conteiner{
+    padding: 4%;
+    }  
+    #contatos{
+      width: 43%
+    }
+    #logos_conteiner,h3,.logos_flex img{
+        height: 20px;
+        font-size: 13px;
+        
+    }
+    
+input{
+  width: 45%;
+}
+
+    #msg{
+      width: 100%;
+      margin: 10px;
+     }
+     nav{
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+      
+  }
+    
+}
+
+@media screen and (min-width:420px) and (max-width:800px){
+    .col-c-1 {width: 8.33%;}
+    .col-c-2 {width: 16.66%;}
+    .col-c-3 {width: 25%;}
+    .col-c-4 {width: 33.33%;}
+    .col-c-5 {width: 41.66%;}
+    .col-c-6 {width: 50%;}
+    .col-c-7 {width: 58.33%;}
+    .col-c-8 {width: 66.66%;}
+    .col-c-9 {width: 75%;}
+    .col-c-10 {width: 83.33%;}
+    .col-c-11 {width: 91.66%;}
+    .col-c-12 {width: 100%;}
+    
+
+
+    body,html{
+        max-width: 100%;
+    }
+    h1{
+        font-size: 130%;
+    }
+    #menu_conteiner,#informacoes_adicionais{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 2%;
+    }
+    .ab{
+        display:none;
+    }
+    
+    h3{
+        font-size: 100%;
+    }
+    input{
+      width: 45%;
+      font-size: 11px;
+    }
+        #msg{
+          width: 100%;
+          margin: 10px;
+          font-size: 11px;
+         }
+         #contatos{
+          width: 30%;
+          font-size: 11px;
+          margin-left: 15px;
+        }
+        main{
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+        #logos_conteiner{
+          width: 100%;
+         padding: 20px;
+          align-items: center;
+         }
+}
+
+@media screen and (max-width:473px){       
+body,html{
+        max-width: 100%;
+    }
+    h1{
+      text-align: left;
+        font-size: 120%;
+    }
+   #nav_conteiner{
+  padding-left: 0px;
+  }
+    #menu_conteiner{
+        flex-direction: column;
+    }
+    #quem_somos_conteiner{
+        display: block;
+    }
+    
+    #informacoes_adicionais{
+        flex-direction: column;
+    }
+        .col-m-1 {width: 8.33%;}
+        .col-m-2 {width: 16.66%;}
+        .col-m-3 {width: 25%;}
+        .col-m-4 {width: 33.33%;}
+        .col-m-5 {width: 41.66%;}
+        .col-m-6 {width: 50%;}
+        .col-m-7 {width: 58.33%;}
+        .col-m-8 {width: 66.66%;}
+        .col-m-9 {width: 75%;}
+        .col-m-10 {width: 83.33%;}
+        .col-m-11 {width: 91.66%;}
+        .col-m-12 {width: 100%;}
+       
+        main{
+          display:flex;
+          flex-direction: column-reverse;
+          padding: 0px;
+          padding-top: 50px;
+          padding-bottom: 50px;
+        }
+        .row{
+          width: 100%;
+          justify-content: center;
+          margin: 0px;
+          
+        }
+       .form_h3{
+        margin: 5px;
+        padding: 0px;
+        
+       }
+       form,#contatos{
+        border-radius: 0px;
+       }
+            #msg{
+              width: 100%;
+              margin: 5px;
+              font-size: 11px;
+             }
+             #contatos{
+              width: 100%;
+              font-size: 11px;
+              margin: 0px;
+            }
+            input{
+              width: 100%;
+              margin: 5px;
+              font-size: 11px;
+            }
+            nav{
+              display: flex;
+              flex-direction: column;
+              padding: 5px;
+              
+          }
+            aside{
+              font-size: 11px;
+              padding-left: 0px;
+            }
+         
+          #nav_conteiner{
+             display: none;
+             text-align: left;
+          }
+          #nav.active #nav_conteiner{
+              display: flex;
+              flex-direction: column;
+              padding: 0px;
+              margin: 4px;
+              
+          }
+         
+          .nav_flex{
+            text-align: left;
+            border-bottom: 2px solid black;
+            border-radius: 0px;
+            width: 90%;
+            font-size: 18px;
+            
+          }
+          #btn_mobile{
+            display: block;
+            padding: 2px;
+            height: 29px;
+            width: 51px;
+            
+          }
+          #menu{
+            display: flex;
+            flex-direction: row;
+            margin: 0px;
+            align-items: center;
+            font-size: 18px;
+            
+          }
+          #nav.active #btn_mobile{
+             
+              
+            color: rgb(255, 255, 255);
+            text-align: left;
+           
+          }
+          #logos_conteiner{
+            width: 100%;
+           padding: 20px;
+            align-items: center;
+           }
+      }
